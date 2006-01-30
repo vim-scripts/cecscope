@@ -1,0 +1,24 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1453
+
+    (requires vim7.0aa snapshot #188 or later)
+DrChip's cscope interface supports commands:
+
+    CS     [cdefgist]   : cscope
+    CSl[!] [cdefgist]   : locallist style (! restores efm)
+    CSs[!] [cdefgist]   : split window and use cscope
+
+    !            split vertically
+    c (calls)    find functions calling function under cursor
+    d (called)   find functions called by function under cursor
+    e (egrep)    egrep search for the word under cursor
+    f (file)     open the file named under cursor
+    g (global)   find global definition(s) of word under cursor
+    i (includes) find files that #include file named under cursor
+    s (symbol)   find all references to the word under cursor
+    t (text)     find all instances of the word under cursor
+
+and menus which allow you to do all the above.  Includes help
+and a tutorial.
+
+(alpha/beta version available at http://mysite.verizon.net/astronaut/vim/index.html#CECSCOPE)
+
